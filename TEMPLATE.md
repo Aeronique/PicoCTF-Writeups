@@ -8,7 +8,7 @@
 
 ![Challenge Banner or Screenshot](/path/to/image.png)
 
-*[Brief italicized intro summarizing what the challenge teaches or why it's interesting. Keep it 2-3 sentences.]*
+*[Brief italicized intro - 2-3 sentences about what the challenge teaches or why it's interesting.]*
 
 ## Challenge Description
 
@@ -17,50 +17,33 @@
 **Given files**: `filename.ext` (if applicable)  
 **Challenge link**: `http://challenge.url` (if applicable)
 
-## Initial Reconnaissance
+## Reconnaissance
 
-[Describe your first look at the challenge. What did you notice? What stood out? What tools did you immediately think to use?]
+[What did you notice when you first looked at the challenge? What tools did you use to investigate?]
 
 ```bash
-# Example command
 file challenge.bin
+strings challenge.bin | head
 ```
 
-[Explain what the output tells you]
-
-## Approach
-
-[Walk through your methodology. Break this into logical steps. Use subheadings if needed.]
-
-### Step 1: [Description]
-
-[Explain what you did and why]
-
-```python
-# Code example
-import base64
-encoded = "..."
-decoded = base64.b64decode(encoded)
-```
-
-[Explain the result]
-
-### Step 2: [Description]
-
-[Continue the walkthrough]
-
-![Screenshot of important step](/path/to/screenshot.png)
-
-*Caption explaining what the screenshot shows*
+[Brief explanation of what you found]
 
 ## Solution
 
-[Present the final solution clearly. This should be reproducible.]
+[Walk through your approach. For simple challenges, this can be a single section. For complex ones, break into multiple steps with subheadings.]
 
-```bash
-# Final exploit or solution command
-python solve.py
+```python
+# Your solution code
+import base64
+data = "..."
+print(base64.b64decode(data))
 ```
+
+[Explain what's happening and why it works]
+
+![Screenshot if helpful](/path/to/screenshot.png)
+
+*Caption for screenshot*
 
 <details>
 <summary><b>Flag</b> (click to reveal)</summary>
@@ -71,19 +54,15 @@ python solve.py
 
 ## Tools Used
 
-- Tool 1 - Brief description of what it was used for
-- Tool 2 - Brief description
-- Tool 3 - Brief description
+- [Tool name] - What you used it for
+- [Another tool] - Purpose
 
-## Lessons Learned
+## Key Takeaways
 
-- [Key takeaway 1]
-- [Key takeaway 2]
-- [Key takeaway 3]
-
-[Optional: Add a reflection paragraph about what this challenge reinforced or what new concepts it introduced]
+- [What did you learn?]
+- [Any techniques worth remembering?]
+- [Optional: Personal reflection]
 
 ## References
 
-- [Reference 1 with link]
-- [Reference 2 with link]
+- [Link to documentation/resources if relevant]

@@ -10,7 +10,6 @@ Guide for publishing PicoCTF writeups across GitHub, Medium, and aerobytes.io.
 - [ ] Screenshots/images optimized (PNG preferred, <500KB)
 - [ ] Links verified and defanged where appropriate
 - [ ] Spell check and grammar review completed
-- [ ] MITRE ATT&CK mappings included (if applicable)
 
 ## Publishing Order
 
