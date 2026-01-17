@@ -101,7 +101,7 @@ Translation:
 3. If match, call native function `fenugreek()`
 4. If no match, return "NOPE"
 
-The password isn't computed or obfuscated—it's a static resource.
+The password isn't computed or obfuscated, it's a static resource.
 
 ### Step 4: Resolve the Resource
 
