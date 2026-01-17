@@ -148,10 +148,10 @@ The native `fenugreek()` function executes and displays the flag.
 
 ## Lessons Learned
 
-- Android string resources are easy targets for reversing—always check `res/values/strings.xml` before diving into smali or native code
+- Android string resources are easy targets for reversing, always check `res/values/strings.xml` before diving into smali or native code
 - `apktool` preserves the original resource structure better than pure decompilers
 - Understanding Android's resource resolution system (`R.string.*`, resource IDs) saves time
-- Native JNI functions aren't always the challenge—sometimes they only execute after you've already solved the real puzzle
+- Native JNI functions aren't always the challenge, sometimes they only execute after you've already solved the real puzzle
 
 The challenge name "droids1" and the question "Where do droid logs go?" was a hint toward Android resources and logging mechanisms, though the solution was simpler than expected.
 
