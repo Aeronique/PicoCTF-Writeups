@@ -232,7 +232,6 @@ The attack makes 4,096 queries (16 bytes × 256 plaintexts) and recovers the key
     Found: 0xe6
 
 [+] Key: 81808c36fca7288b8a57f90907ccbae6
-[+] Flag: picoCTF{81808c36fca7288b8a57f90907ccbae6}
 ```
 
 <details>
